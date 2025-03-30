@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page - PWA eCommerce</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <a href="#">Home</a> > <a href="#">Handbag</a> > Label
+    </nav>
+
+    <!-- Product Section -->
+    <main class="product-container">
+        <div class="product-image">
+            <img id="mainImage" src="bag.png" alt="Leather Coach Bag">
+            <div class="thumbnails">
+                <img src="bag.png" alt="Thumbnail 1">
+                <img src="bag.png" alt="Thumbnail 2">
+                <img src="bag.png" alt="Thumbnail 3">
+            </div>
+        </div>
+        <div class="product-details">
+            <h1>Coach</h1><br>
+            <p>Leather Coach bag with adjustable straps.</p><br>
+            <p class="rating">⭐⭐⭐⭐⭐ (250 Ratings)</p><br>
+            <p class="price">$54.69 <span class="old-price">$78.66</span> <span class="discount">50% OFF</span></p><br>
+            <hr>
+
+           
+
+            <div class="quantity">
+                <label>Quantity:</label>
+                <div class="stepper">
+                    <button class="decrease">-</button>
+                    <input type="number" value="1" min="1" id="quantityInput">
+                    <button class="increase">+</button>
+                </div>
+                
+            </div>
+
+            <button class="add-to-bag"><i class="fas fa-shopping-bag"></i> Add to Bag</button>
+            <button class="add-to-wishlist"><i class="far fa-heart"></i> Add to Wishlist</button>
+        </div>
+    </main>
+
+    <!-- Product Description -->
+    <section class="description">
+        <button>Product Description</button>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p><br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque voluptatum sed alias rerum consectetur, <br> aspernatur maxime possimus explicabo sequi natus error praesentium placeat illo ex assumenda, temporibus eius provident.</p><br>
+    </section>
+
+
+
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
